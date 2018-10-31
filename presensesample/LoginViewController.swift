@@ -15,9 +15,9 @@ class LoginViewController: UIViewController {
     
     var user: User? = nil
     var users: [User] = []
-
+    
     var pusher: Pusher!
-
+    
     @IBOutlet weak var nameTextField: UITextField!
     
     override func viewWillAppear(_ animated: Bool) {
@@ -62,12 +62,12 @@ class LoginViewController: UIViewController {
                 guard successful else {
                     return StatusBarNotificationBanner(title: "Failed to login.", style: .danger).show()
                 }
-
+                
                 self.performSegue(withIdentifier: "showmain", sender: self)
             }
         }
     }
-
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let vc = segue.destination as? MainViewController {
             vc.viewControllers?.forEach {
@@ -78,5 +78,5 @@ class LoginViewController: UIViewController {
             }
         }
     }
-
+    
 }
