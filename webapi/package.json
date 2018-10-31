@@ -1,0 +1,10 @@
+{
+  "name": "presensesample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "pusher": "^2.1.3"
+  }
+}
