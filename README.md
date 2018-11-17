@@ -1,6 +1,6 @@
 # iOS Presence App Using Pusher
 
-How to work with presence channels on an iOS application. View [tutorial](#).
+How to work with presence channels on an iOS application. View [tutorial](https://pusher.com/tutorials/ios-user-presence-node-swift).
 
 ## Getting Started
 
